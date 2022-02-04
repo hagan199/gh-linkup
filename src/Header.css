@@ -1,5 +1,15 @@
 .header {
       display: flex;
+      justify-content: space-evenly;
+      padding-top: 10px;
+      width: 100%;
+      padding-bottom: 0.1px solid lightgray;
+      border-bottom: 0.1px solid lightgray;
+      width: 100%;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      
 }
 
 .header__left{
@@ -27,4 +37,10 @@
   object-fit: contain;
   height: 40px;
   margin-right: 10px;
+}
+
+.header__right {
+  display: flex;
+
+
 }
