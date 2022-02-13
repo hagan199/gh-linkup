@@ -25,7 +25,7 @@ function Header() {
         <HeaderOption Icon={CircleNotificationsIcon} title="Notification" />
         <HeaderOption Icon={BusinessCenterIcon} title="Business" />
     </div>
-  </div>;
+    </div>
 }
 
 export default Header;
