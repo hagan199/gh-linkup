@@ -1,16 +1,27 @@
 .headerOption {
   color: pointer;
+  align-items: center;
   margin-right: 20px;
   display: flex;
   color: gray;
   cursor: pointer;
   flex-direction: column;
 }
+
 .headerOption:hover {
   color: black;
-
 }
+
 .headerOption__title {
   font-size: 12px;
   font-weight: 400;
+}
+
+.header__search > input {
+  display: flex;
+}
+.headerOption_icon {
+  object-fit: contain;
+  height: 25px !important;
+  width: 25px !important;
 }
